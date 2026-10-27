@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B54A62903090C51C0069257F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54A62713090C51B0069257F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B54A62783090C51B0069257F;
+			remoteInfo = TrackerPracticum;
+		};
+		B54A629A3090C51C0069257F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54A62713090C51B0069257F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B54A62783090C51B0069257F;
+			remoteInfo = TrackerPracticum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B54A62793090C51B0069257F /* TrackerPracticum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackerPracticum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54A628F3090C51C0069257F /* TrackerPracticumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackerPracticumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54A62993090C51C0069257F /* TrackerPracticumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackerPracticumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B54A629F3090C51C0069257F /* Exceptions for "TrackerPracticum" folder in "TrackerPracticum" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B54A62783090C51B0069257F /* TrackerPracticum */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B54A627B3090C51B0069257F /* TrackerPracticum */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B54A629F3090C51C0069257F /* Exceptions for "TrackerPracticum" folder in "TrackerPracticum" target */,
+			);
+			path = TrackerPracticum;
+			sourceTree = "<group>";
+		};
+		B54A62923090C51C0069257F /* TrackerPracticumTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TrackerPracticumTests;
+			sourceTree = "<group>";
+		};
+		B54A629C3090C51C0069257F /* TrackerPracticumUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TrackerPracticumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B54A62763090C51B0069257F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		B54A628C3090C51C0069257F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		B54A62963090C51C0069257F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B54A62703090C51B0069257F = {
+			isa = PBXGroup;
+			children = (
+				B54A627B3090C51B0069257F /* TrackerPracticum */,
+				B54A62923090C51C0069257F /* TrackerPracticumTests */,
+				B54A629C3090C51C0069257F /* TrackerPracticumUITests */,
+				B54A627A3090C51B0069257F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B54A627A3090C51B0069257F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B54A62793090C51B0069257F /* TrackerPracticum.app */,
+				B54A628F3090C51C0069257F /* TrackerPracticumTests.xctest */,
+				B54A62993090C51C0069257F /* TrackerPracticumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B54A62783090C51B0069257F /* TrackerPracticum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54A62A03090C51C0069257F /* Build configuration list for PBXNativeTarget "TrackerPracticum" */;
+			buildPhases = (
+				B54A62753090C51B0069257F /* Sources */,
+				B54A62763090C51B0069257F /* Frameworks */,
+				B54A62773090C51B0069257F /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				B54A627B3090C51B0069257F /* TrackerPracticum */,
+			);
+			name = TrackerPracticum;
+			productName = TrackerPracticum;
+			productReference = B54A62793090C51B0069257F /* TrackerPracticum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B54A628E3090C51C0069257F /* TrackerPracticumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54A62A53090C51C0069257F /* Build configuration list for PBXNativeTarget "TrackerPracticumTests" */;
+			buildPhases = (
+				B54A628B3090C51C0069257F /* Sources */,
+				B54A628C3090C51C0069257F /* Frameworks */,
+				B54A628D3090C51C0069257F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B54A62913090C51C0069257F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B54A62923090C51C0069257F /* TrackerPracticumTests */,
+			);
+			name = TrackerPracticumTests;
+			productName = TrackerPracticumTests;
+			productReference = B54A628F3090C51C0069257F /* TrackerPracticumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B54A62983090C51C0069257F /* TrackerPracticumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54A62A83090C51C0069257F /* Build configuration list for PBXNativeTarget "TrackerPracticumUITests" */;
+			buildPhases = (
+				B54A62953090C51C0069257F /* Sources */,
+				B54A62963090C51C0069257F /* Frameworks */,
+				B54A62973090C51C0069257F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B54A629B3090C51C0069257F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B54A629C3090C51C0069257F /* TrackerPracticumUITests */,
+			);
+			name = TrackerPracticumUITests;
+			productName = TrackerPracticumUITests;
+			productReference = B54A62993090C51C0069257F /* TrackerPracticumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B54A62713090C51B0069257F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					B54A62783090C51B0069257F = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					B54A628E3090C51C0069257F = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = B54A62783090C51B0069257F;
+					};
+					B54A62983090C51C0069257F = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = B54A62783090C51B0069257F;
+					};
+				};
+			};
+			buildConfigurationList = B54A62743090C51B0069257F /* Build configuration list for PBXProject "TrackerPracticum" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B54A62703090C51B0069257F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B54A627A3090C51B0069257F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B54A62783090C51B0069257F /* TrackerPracticum */,
+				B54A628E3090C51C0069257F /* TrackerPracticumTests */,
+				B54A62983090C51C0069257F /* TrackerPracticumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B54A62773090C51B0069257F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		B54A628D3090C51C0069257F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		B54A62973090C51C0069257F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B54A62753090C51B0069257F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		B54A628B3090C51C0069257F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		B54A62953090C51C0069257F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B54A62913090C51C0069257F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B54A62783090C51B0069257F /* TrackerPracticum */;
+			targetProxy = B54A62903090C51C0069257F /* PBXContainerItemProxy */;
+		};
+		B54A629B3090C51C0069257F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B54A62783090C51B0069257F /* TrackerPracticum */;
+			targetProxy = B54A629A3090C51C0069257F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B54A62A13090C51C0069257F /* Debug configuration for PBXNativeTarget "TrackerPracticum" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGCMMC4WH3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrackerPracticum/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = "$(RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kostya.TrackerPracticum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B54A62A23090C51C0069257F /* Release configuration for PBXNativeTarget "TrackerPracticum" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGCMMC4WH3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrackerPracticum/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = "$(RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kostya.TrackerPracticum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B54A62A33090C51C0069257F /* Debug configuration for PBXProject "TrackerPracticum" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QGCMMC4WH3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B54A62A43090C51C0069257F /* Release configuration for PBXProject "TrackerPracticum" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QGCMMC4WH3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B54A62A63090C51C0069257F /* Debug configuration for PBXNativeTarget "TrackerPracticumTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGCMMC4WH3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kostya.TrackerPracticumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackerPracticum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrackerPracticum";
+			};
+			name = Debug;
+		};
+		B54A62A73090C51C0069257F /* Release configuration for PBXNativeTarget "TrackerPracticumTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGCMMC4WH3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kostya.TrackerPracticumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackerPracticum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrackerPracticum";
+			};
+			name = Release;
+		};
+		B54A62A93090C51C0069257F /* Debug configuration for PBXNativeTarget "TrackerPracticumUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGCMMC4WH3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kostya.TrackerPracticumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrackerPracticum;
+			};
+			name = Debug;
+		};
+		B54A62AA3090C51C0069257F /* Release configuration for PBXNativeTarget "TrackerPracticumUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGCMMC4WH3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kostya.TrackerPracticumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrackerPracticum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B54A62743090C51B0069257F /* Build configuration list for PBXProject "TrackerPracticum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54A62A33090C51C0069257F /* Debug configuration for PBXProject "TrackerPracticum" */,
+				B54A62A43090C51C0069257F /* Release configuration for PBXProject "TrackerPracticum" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		B54A62A03090C51C0069257F /* Build configuration list for PBXNativeTarget "TrackerPracticum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54A62A13090C51C0069257F /* Debug configuration for PBXNativeTarget "TrackerPracticum" */,
+				B54A62A23090C51C0069257F /* Release configuration for PBXNativeTarget "TrackerPracticum" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		B54A62A53090C51C0069257F /* Build configuration list for PBXNativeTarget "TrackerPracticumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54A62A63090C51C0069257F /* Debug configuration for PBXNativeTarget "TrackerPracticumTests" */,
+				B54A62A73090C51C0069257F /* Release configuration for PBXNativeTarget "TrackerPracticumTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		B54A62A83090C51C0069257F /* Build configuration list for PBXNativeTarget "TrackerPracticumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54A62A93090C51C0069257F /* Debug configuration for PBXNativeTarget "TrackerPracticumUITests" */,
+				B54A62AA3090C51C0069257F /* Release configuration for PBXNativeTarget "TrackerPracticumUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B54A62713090C51B0069257F /* Project object */;
+	validationLevel = 1;
+}
